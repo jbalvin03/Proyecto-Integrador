@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c3e8f7, #a6e4b0);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+button {
+    background-color: #007b5e;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+    background-color: #005f46;
+    transform: translateY(-2px);
+}
+button:active {
+    background-color: #004935;
+    transform: translateY(0);
+}

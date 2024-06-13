@@ -4,3 +4,5 @@ from analysis.analisisCalidadRuido import*
 
 from analysis.AnalisisBiodiversidad import*
 
+from analysis.analisisAreaArbol import*
+

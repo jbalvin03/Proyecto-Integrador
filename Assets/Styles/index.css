@@ -1,22 +1,29 @@
 .banner{
-    background-image: url(/Assets/img/lluvias-7_41379634_20230106140708.jpg);
+    background-image: url(/Assets/img/Esfera\ con\ árboles\ _\ Foto\ Gratis.jfif);
     background-position: top center;
-    background-size: cover;
-    padding:24%;
+
+    padding: 21%;
     z-index: 1;
     position: relative;
-    background-attachment: fixed;
+    background-attachment: fixed; 
+    height: 50px;
 }
 
 body {
-    background: linear-gradient(135deg, #c3e8f7, #a6e4b0);
+    font-family: Arial, sans-serif;
+    background-image: url(/Assets/img/composicion-elementos-estilo-vida-sostenible-bodegon.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+   
+    color: #000000; 
 }
 
 
 
 button {
-    box-shadow: 0 0 5px #007b5e, 0 0 25px #007b5e; 
-    background-color: #007b5e;
+    box-shadow: 0 0 5px white, 0 0 25px #048b10; 
+    background-color: #02580a;
     color: white;
     border: none;
     padding: 15px 25px;
@@ -29,7 +36,8 @@ button {
 }
 
 button:hover {
-    background-color: #005f46;
+   
+    background-color: #004935;
     transform: translateY(-2px);
-    box-shadow: 0 0 5px #005f46, 0 0 25px #005f46, 0 0 50px #005f46, 0 0 100px #005f46, 0 0 200px #005f46;
+    
 }

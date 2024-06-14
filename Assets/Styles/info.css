@@ -18,6 +18,77 @@ body {
     text-align: center;
     color: #007b5e; 
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.container {
+    background-image: url(/Assets/img/composicion-elementos-estilo-vida-sostenible-bodegon.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000; 
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 20px;
+
+    color: #ffffff; 
+    box-shadow: 0 4px 8px #007b5e, 0 4px 20px 0 #02580a ;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 24px;
+}
+
+li strong {
+    font-weight: bold;
+}
+
+.highlight {
+    font-size: 36px;
+    margin: 10px 20px;
+
+    color: #ffffff; 
+    box-shadow: 0 4px 8px #007b5e, 0 4px 20px 0 #02580a ;
+}
+
+button {
+    background-color: #36753c;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+    background-color: #005f46;
+    transform: translateY(-2px); 
+    box-shadow: 0 0 5px #ffffff, 0 0 25px #005f46, 0 0 30px #ffffff, 0 0 60px #005f46, 0 0 100px #0a8d06;
+}
+button:active {
+    background-color: #004935;
+    transform: translateY(0);
+}
+
 
 h1 {
     font-size: 36px;

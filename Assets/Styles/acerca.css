@@ -1,13 +1,18 @@
 body{
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #c3e8f7, #a6e4b0);
-    color: #333;
+    background-image: url(/Assets/img/composicion-elementos-estilo-vida-sostenible-bodegon.jpg);
+    background-size: cover;
+    background-position: center;
+
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    margin: 0;
-}
+    align-items: center;
+    text-align: center;
+    color: #000000; 
+} 
+
+
+
  
 h1{
     text-align: center;
@@ -15,24 +20,42 @@ h1{
 }
 
 .organizers {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+   text-align: center;
+  
+   padding: 10px;
 }
 
 .organizer {
-    margin: 20px;
-    text-align: center;
+    box-shadow: 0 0 5px #000000, 0 0 25px #407e233f; 
+   
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    
 }
 
 .organizer img {
     width: 200px;
-    border-radius: 50%;
+    border-radius: 25%;
+} 
+
+.organizer:hover{
+
+   
+    background-color: #004935c2;
+    transform: translateY(-2px);
+    box-shadow: 0 0 5px #ffffff, 0 0 25px #005f46, 0 0 30px #0a8d06, 0 0 60px #005f46, 0 0 100px #0a8d06;
+    color: aliceblue;
 }
 
 button {
-    box-shadow: 0 0 5px #007b5e, 0 0 25px #007b5e; 
-    background-color: #007b5e;
+    box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff; 
+    background-color: #02580a;
     color: white;
     border: none;
     padding: 15px 25px;
@@ -45,9 +68,7 @@ button {
 }
 
 button:hover {
-    background-color: #005f46;
+    background-color: #004935;
     transform: translateY(-2px);
-    box-shadow: 0 0 5px #005f46, 0 0 25px #005f46, 0 0 50px #005f46, 0 0 100px #005f46, 0 0 200px #005f46;
+    box-shadow: 0 0 5px #ffffff, 0 0 25px #005f46, 0 0 50px #004935, 0 0 100px #005f46, 0 0 200px #0a8d06;
 }
-
-
